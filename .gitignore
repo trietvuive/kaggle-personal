@@ -8,3 +8,7 @@ ipython_config.py
 
 # Ignore CSV
 *.csv
+
+# Random folders from SageMaker
+.Trash-1000/
+.virtual-documents/
