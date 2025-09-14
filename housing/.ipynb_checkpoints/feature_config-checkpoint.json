@@ -1,0 +1,651 @@
+{
+    "MSSubClass": {
+        "type": "categorical",
+        "vocabulary": [
+            "20",
+            "30",
+            "40",
+            "45",
+            "50",
+            "60",
+            "70",
+            "75",
+            "80",
+            "85",
+            "90",
+            "120",
+            "150",
+            "160",
+            "180",
+            "190"
+        ]
+    },
+    "MSZoning": {
+        "type": "categorical",
+        "vocabulary": [
+            "A",
+            "C",
+            "FV",
+            "I",
+            "RH",
+            "RL",
+            "RP",
+            "RM"
+        ]
+    },
+    "LotFrontage": {
+        "type": "numerical"
+    },
+    "LotArea": {
+        "type": "numerical"
+    },
+    "Street": {
+        "type": "categorical",
+        "vocabulary": [
+            "Grvl",
+            "Pave"
+        ]
+    },
+    "Alley": {
+        "type": "categorical",
+        "vocabulary": [
+            "Grvl",
+            "Pave",
+            "NA"
+        ]
+    },
+    "LotShape": {
+        "type": "categorical",
+        "vocabulary": [
+            "Reg",
+            "IR1",
+            "IR2",
+            "IR3"
+        ]
+    },
+    "LandContour": {
+        "type": "categorical",
+        "vocabulary": [
+            "Lvl",
+            "Bnk",
+            "HLS",
+            "Low"
+        ]
+    },
+    "Utilities": {
+        "type": "categorical",
+        "vocabulary": [
+            "AllPub",
+            "NoSewr",
+            "NoSeWa",
+            "ELO"
+        ]
+    },
+    "LotConfig": {
+        "type": "categorical",
+        "vocabulary": [
+            "Inside",
+            "Corner",
+            "CulDSac",
+            "FR2",
+            "FR3"
+        ]
+    },
+    "LandSlope": {
+        "type": "categorical",
+        "vocabulary": [
+            "Gtl",
+            "Mod",
+            "Sev"
+        ]
+    },
+    "Neighborhood": {
+        "type": "categorical",
+        "vocabulary": [
+            "Blmngtn",
+            "Blueste",
+            "BrDale",
+            "BrkSide",
+            "ClearCr",
+            "CollgCr",
+            "Crawfor",
+            "Edwards",
+            "Gilbert",
+            "IDOTRR",
+            "MeadowV",
+            "Mitchel",
+            "Names",
+            "NoRidge",
+            "NPkVill",
+            "NridgHt",
+            "NWAmes",
+            "OldTown",
+            "SWISU",
+            "Sawyer",
+            "SawyerW",
+            "Somerst",
+            "StoneBr",
+            "Timber",
+            "Veenker"
+        ]
+    },
+    "Condition1": {
+        "type": "categorical",
+        "vocabulary": [
+            "Artery",
+            "Feedr",
+            "Norm",
+            "RRNn",
+            "RRAn",
+            "PosN",
+            "PosA",
+            "RRNe",
+            "RRAe"
+        ]
+    },
+    "Condition2": {
+        "type": "categorical",
+        "vocabulary": [
+            "Artery",
+            "Feedr",
+            "Norm",
+            "RRNn",
+            "RRAn",
+            "PosN",
+            "PosA",
+            "RRNe",
+            "RRAe"
+        ]
+    },
+    "BldgType": {
+        "type": "categorical",
+        "vocabulary": [
+            "1Fam",
+            "2FmCon",
+            "Duplx",
+            "TwnhsE",
+            "TwnhsI"
+        ]
+    },
+    "HouseStyle": {
+        "type": "categorical",
+        "vocabulary": [
+            "1Story",
+            "1.5Fin",
+            "1.5Unf",
+            "2Story",
+            "2.5Fin",
+            "2.5Unf",
+            "SFoyer",
+            "SLvl"
+        ]
+    },
+    "OverallQual": {
+        "type": "categorical",
+        "vocabulary": [
+            "10",
+            "9",
+            "8",
+            "7",
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+        ]
+    },
+    "OverallCond": {
+        "type": "categorical",
+        "vocabulary": [
+            "10",
+            "9",
+            "8",
+            "7",
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+        ]
+    },
+    "YearBuilt": {
+        "type": "numerical"
+    },
+    "YearRemodAdd": {
+        "type": "numerical"
+    },
+    "RoofStyle": {
+        "type": "categorical",
+        "vocabulary": [
+            "Flat",
+            "Gable",
+            "Gambrel",
+            "Hip",
+            "Mansard",
+            "Shed"
+        ]
+    },
+    "RoofMatl": {
+        "type": "categorical",
+        "vocabulary": [
+            "ClyTile",
+            "CompShg",
+            "Membran",
+            "Metal",
+            "Roll",
+            "Tar&Grv",
+            "WdShake",
+            "WdShngl"
+        ]
+    },
+    "Exterior1st": {
+        "type": "categorical",
+        "vocabulary": [
+            "AsbShng",
+            "AsphShn",
+            "BrkComm",
+            "BrkFace",
+            "CBlock",
+            "CemntBd",
+            "HdBoard",
+            "ImStucc",
+            "MetalSd",
+            "Other",
+            "Plywood",
+            "PreCast",
+            "Stone",
+            "Stucco",
+            "VinylSd",
+            "Wd Sdng",
+            "WdShing"
+        ]
+    },
+    "Exterior2nd": {
+        "type": "categorical",
+        "vocabulary": [
+            "AsbShng",
+            "AsphShn",
+            "BrkComm",
+            "BrkFace",
+            "CBlock",
+            "CemntBd",
+            "HdBoard",
+            "ImStucc",
+            "MetalSd",
+            "Other",
+            "Plywood",
+            "PreCast",
+            "Stone",
+            "Stucco",
+            "VinylSd",
+            "Wd Sdng",
+            "WdShing"
+        ]
+    },
+    "MasVnrType": {
+        "type": "categorical",
+        "vocabulary": [
+            "BrkCmn",
+            "BrkFace",
+            "CBlock",
+            "None",
+            "Stone"
+        ]
+    },
+    "MasVnrArea": {
+        "type": "numerical"
+    },
+    "ExterQual": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po"
+        ]
+    },
+    "ExterCond": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po"
+        ]
+    },
+    "Foundation": {
+        "type": "categorical",
+        "vocabulary": [
+            "BrkTil",
+            "CBlock",
+            "PConc",
+            "Slab",
+            "Stone",
+            "Wood"
+        ]
+    },
+    "BsmtQual": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po",
+            "NA"
+        ]
+    },
+    "BsmtCond": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po",
+            "NA"
+        ]
+    },
+    "BsmtExposure": {
+        "type": "categorical",
+        "vocabulary": [
+            "Gd",
+            "Av",
+            "Mn",
+            "No",
+            "NA"
+        ]
+    },
+    "BsmtFinType1": {
+        "type": "categorical",
+        "vocabulary": [
+            "GLQ",
+            "ALQ",
+            "BLQ",
+            "Rec",
+            "LwQ",
+            "Unf",
+            "NA"
+        ]
+    },
+    "BsmtFinSF1": {
+        "type": "numerical"
+    },
+    "BsmtFinType2": {
+        "type": "categorical",
+        "vocabulary": [
+            "GLQ",
+            "ALQ",
+            "BLQ",
+            "Rec",
+            "LwQ",
+            "Unf",
+            "NA"
+        ]
+    },
+    "BsmtFinSF2": {
+        "type": "numerical"
+    },
+    "BsmtUnfSF": {
+        "type": "numerical"
+    },
+    "TotalBsmtSF": {
+        "type": "numerical"
+    },
+    "Heating": {
+        "type": "categorical",
+        "vocabulary": [
+            "Floor",
+            "GasA",
+            "GasW",
+            "Grav",
+            "OthW",
+            "Wall"
+        ]
+    },
+    "HeatingQC": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po"
+        ]
+    },
+    "CentralAir": {
+        "type": "categorical",
+        "vocabulary": [
+            "N",
+            "Y"
+        ]
+    },
+    "Electrical": {
+        "type": "categorical",
+        "vocabulary": [
+            "SBrkr",
+            "FuseA",
+            "FuseF",
+            "FuseP",
+            "Mix"
+        ]
+    },
+    "1stFlrSF": {
+        "type": "numerical"
+    },
+    "2ndFlrSF": {
+        "type": "numerical"
+    },
+    "LowQualFinSF": {
+        "type": "numerical"
+    },
+    "GrLivArea": {
+        "type": "numerical"
+    },
+    "BsmtFullBath": {
+        "type": "numerical"
+    },
+    "BsmtHalfBath": {
+        "type": "numerical"
+    },
+    "FullBath": {
+        "type": "numerical"
+    },
+    "HalfBath": {
+        "type": "numerical"
+    },
+    "BedroomAbvGr": {
+        "type": "numerical"
+    },
+    "KitchenAbvGr": {
+        "type": "numerical"
+    },
+    "KitchenQual": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po"
+        ]
+    },
+    "TotRmsAbvGrd": {
+        "type": "numerical"
+    },
+    "Functional": {
+        "type": "categorical",
+        "vocabulary": [
+            "Typ",
+            "Min1",
+            "Min2",
+            "Mod",
+            "Maj1",
+            "Maj2",
+            "Sev",
+            "Sal"
+        ]
+    },
+    "Fireplaces": {
+        "type": "numerical"
+    },
+    "FireplaceQu": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po",
+            "NA"
+        ]
+    },
+    "GarageType": {
+        "type": "categorical",
+        "vocabulary": [
+            "2Types",
+            "Attchd",
+            "Basment",
+            "BuiltIn",
+            "CarPort",
+            "Detchd",
+            "NA"
+        ]
+    },
+    "GarageYrBlt": {
+        "type": "numerical"
+    },
+    "GarageFinish": {
+        "type": "categorical",
+        "vocabulary": [
+            "Fin",
+            "RFn",
+            "Unf",
+            "NA"
+        ]
+    },
+    "GarageCars": {
+        "type": "numerical"
+    },
+    "GarageArea": {
+        "type": "numerical"
+    },
+    "GarageQual": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po",
+            "NA"
+        ]
+    },
+    "GarageCond": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "Po",
+            "NA"
+        ]
+    },
+    "PavedDrive": {
+        "type": "categorical",
+        "vocabulary": [
+            "Y",
+            "P",
+            "N"
+        ]
+    },
+    "WoodDeckSF": {
+        "type": "numerical"
+    },
+    "OpenPorchSF": {
+        "type": "numerical"
+    },
+    "EnclosedPorch": {
+        "type": "numerical"
+    },
+    "3SsnPorch": {
+        "type": "numerical"
+    },
+    "ScreenPorch": {
+        "type": "numerical"
+    },
+    "PoolArea": {
+        "type": "numerical"
+    },
+    "PoolQC": {
+        "type": "categorical",
+        "vocabulary": [
+            "Ex",
+            "Gd",
+            "TA",
+            "Fa",
+            "NA"
+        ]
+    },
+    "Fence": {
+        "type": "categorical",
+        "vocabulary": [
+            "GdPrv",
+            "MnPrv",
+            "GdWo",
+            "MnWw",
+            "NA"
+        ]
+    },
+    "MiscFeature": {
+        "type": "categorical",
+        "vocabulary": [
+            "Elev",
+            "Gar2",
+            "Othr",
+            "Shed",
+            "TenC",
+            "NA"
+        ]
+    },
+    "MiscVal": {
+        "type": "numerical"
+    },
+    "MoSold": {
+        "type": "numerical"
+    },
+    "YrSold": {
+        "type": "numerical"
+    },
+    "SaleType": {
+        "type": "categorical",
+        "vocabulary": [
+            "WD",
+            "CWD",
+            "VWD",
+            "New",
+            "COD",
+            "Con",
+            "ConLw",
+            "ConLI",
+            "ConLD",
+            "Oth"
+        ]
+    },
+    "SaleCondition": {
+        "type": "categorical",
+        "vocabulary": [
+            "Normal",
+            "Abnorml",
+            "AdjLand",
+            "Alloca",
+            "Family",
+            "Partial"
+        ]
+    }
+}
